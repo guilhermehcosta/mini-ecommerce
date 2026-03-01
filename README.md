@@ -76,6 +76,8 @@ Acessar o endpoint no navegador:
 
 Isso irá buscar os produtos da API externa e salvar no banco.
 
+(Você pode utrilizar um editor SQL para ver as tabelas sendo criadas e atualizadas dentro do banco durante o uso da aplicação)
+
 Frontend:
 
 - Entrar na pasta:
