@@ -1,3 +1,5 @@
+(Leia as instruções na versão de codigo do github)
+
 Projeto desenvolvido como desafio técnico.
 A aplicação simula um mini e-commerce com listagem de produtos, carrinho e finalização de pedido com controle de estoque.
 
