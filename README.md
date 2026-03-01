@@ -52,9 +52,9 @@ npm install
 - Criar o arquivo .env preenchendo as variáveis:
 
 DB_HOST=localhost
-DB_USER=postgres
-DB_PASSWORD=123456
-DB_NAME=ecommerce
+DB_USER=(PREENCHA)
+DB_PASSWORD=(PREENCHA)
+DB_NAME=(PREENCHA)
 DB_PORT=5432
 PORT=3000
 
