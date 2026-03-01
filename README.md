@@ -41,7 +41,7 @@ Os produtos são sincronizados utilizando INSERT ... ON CONFLICT, garantindo que
 Como executar o projeto:
 
 - Clonar o repositório:
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
+git clone https://github.com/guilhermehcosta/mini-ecommerce.git
 
 Backend:
 
@@ -52,9 +52,9 @@ npm install
 - Criar um arquivo .env com as variáveis:
 
 DB_HOST=localhost
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-DB_NAME=seu_banco
+DB_USER=(coloque seu usuario)
+DB_PASSWORD=(coloque sua senha)
+DB_NAME=(coloque o nome do seu banco)
 DB_PORT=5432
 
 
@@ -62,8 +62,8 @@ DB_PORT=5432
 npm run dev
 
 - Sincronizar produtos:
-Acessar o endpoint:
-GET /sync
+Acessar o endpoint no navegador:
+[GET /sync](http://localhost:3000/sync) (ou a porta que você usa)
 
 Isso irá buscar os produtos da API externa e salvar no banco.
 
