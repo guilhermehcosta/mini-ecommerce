@@ -49,7 +49,7 @@ Backend:
 cd backend
 npm install
 
-- Criar um arquivo .env com as variáveis:
+- Editar o arquivo .env preenchendo as variáveis:
 
 DB_HOST=localhost
 DB_USER=(coloque seu usuario)
