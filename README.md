@@ -49,13 +49,14 @@ Backend:
 cd backend
 npm install
 
-- Criar um arquivo .env com as variáveis:
+- Criar o arquivo .env preenchendo as variáveis:
 
 DB_HOST=localhost
-DB_USER=(coloque seu usuario)
-DB_PASSWORD=(coloque sua senha)
-DB_NAME=(coloque o nome do seu banco)
+DB_USER=postgres
+DB_PASSWORD=123456
+DB_NAME=ecommerce
 DB_PORT=5432
+PORT=3000
 
 - Crie o banco de dados no PostgreSQL com o nome que você definiu no .env (execute este comando separadamente no psql ou pgAdmin)
 - CREATE DATABASE seu_banco
