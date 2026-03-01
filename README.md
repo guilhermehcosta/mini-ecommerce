@@ -70,7 +70,7 @@ npm run dev
 
 - Sincronizar produtos:
 Acessar o endpoint no navegador:
-[GET /sync](http://localhost:3000/sync) (ou a porta que você usa)
+[GET /sync](http://localhost:3000/sync-products) (ou a porta que você usa)
 
 Isso irá buscar os produtos da API externa e salvar no banco.
 
