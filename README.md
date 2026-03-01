@@ -57,6 +57,12 @@ DB_PASSWORD=(coloque sua senha)
 DB_NAME=(coloque o nome do seu banco)
 DB_PORT=5432
 
+- Crie o banco de dados no PostgreSQL com o nome que você definiu no .env (execute este comando separadamente no psql ou pgAdmin)
+- CREATE DATABASE seu_banco
+
+- Execute o script para criar as tabelas:
+  psql -U seu_usuario -d seu_banco -f database.sql
+
 
 - Rodar o servidor:
 npm run dev
